@@ -1,0 +1,490 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.addcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.addcontainer .formdiv {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.addcontainer .formdiv #postform {
+  width: 100%;
+}
+.addcontainer .formdiv #postform button {
+  background-color: black;
+  padding: 10px;
+  border: 2px solid white;
+  color: white;
+  width: 30%;
+  border-radius: 0px;
+}
+.addcontainer .formdiv #postform button:hover {
+  background-color: white;
+  color: black;
+  transition: 0.3s;
+  border: 2px solid black;
+}
+.addcontainer .formdiv .searchsort select {
+  margin-bottom: 20px;
+  background-color: black;
+  padding: 10px;
+  border: 2px solid white;
+  color: white;
+  width: 45%;
+  border-radius: 0px;
+}
+.addcontainer .formdiv .searchsort select:hover {
+  background-color: white;
+  color: black;
+  transition: 0.3s;
+  border: 2px solid black;
+}
+.addcontainer .formdiv .searchsort form input {
+  padding: 10px;
+}
+.addcontainer .formdiv .searchsort form button {
+  background-color: black;
+  padding: 10px;
+  border: 2px solid white;
+  color: white;
+  width: 25%;
+  border-radius: 0px;
+}
+.addcontainer .formdiv .searchsort form button:hover {
+  background-color: white;
+  color: black;
+  transition: 0.3s;
+  border: 2px solid black;
+}
+
+.adddiv {
+  width: 50%;
+}
+
+table {
+  margin-top: 30px;
+  border: 1px solid black;
+  width: 100%;
+}
+table tr {
+  padding: 10px;
+  width: 400px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+table tr button {
+  background-color: black;
+  padding: 10px;
+  border: 2px solid white;
+  color: white;
+}
+table tr button:hover {
+  background-color: white;
+  color: black;
+  transition: 0.3s;
+  border: 2px solid black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#wishlistdiv {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  width: 100%;
+}
+#wishlistdiv .box .boxdiv {
+  text-align: center;
+  font-weight: bolder;
+  border: 2px solid black;
+  margin-bottom: 30px;
+}
+#wishlistdiv .box p {
+  margin-top: 10px;
+}
+#wishlistdiv .box img {
+  width: 100%;
+}
+#wishlistdiv .box button {
+  background-color: white;
+  font-weight: bolder;
+  border: 2px solid black;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+#wishlistdiv .box button:hover {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  transition: 0.3s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#basketdiv {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  width: 100%;
+}
+#basketdiv .box .boxdiv {
+  text-align: center;
+  font-weight: bolder;
+  border: 2px solid black;
+  margin-bottom: 30px;
+}
+#basketdiv .box p {
+  margin-top: 10px;
+}
+#basketdiv .box img {
+  width: 100%;
+}
+#basketdiv .box button {
+  background-color: white;
+  font-weight: bolder;
+  border: 2px solid black;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+#basketdiv .box button:hover {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  transition: 0.3s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  position: absolute;
+}
+header .headercontainer {
+  width: 95%;
+}
+header .headercontainer nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+header .headercontainer nav .dropdown {
+  display: none;
+}
+header .headercontainer nav .dropdown .icondiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+header .headercontainer nav .dropdown .icondiv a i {
+  color: black;
+}
+header .headercontainer nav .navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+header .headercontainer nav .navdiv .logodiv {
+  margin-left: 30px;
+}
+header .headercontainer nav .navdiv .logodiv p {
+  font-size: 25px;
+  font-weight: bolder;
+  border: 2px solid white;
+  color: white;
+  padding: 5px;
+}
+header .headercontainer nav .navdiv ul {
+  margin-right: 30px;
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  font-size: 18px;
+}
+header .headercontainer nav .navdiv ul li {
+  color: white;
+}
+header .headercontainer nav .navdiv ul li a {
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  header .headercontainer nav .navdiv {
+    display: none;
+  }
+  header .headercontainer nav .dropdown {
+    display: block;
+  }
+}
+main #entrancesection {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/img/bg_2\ \(1\).jpg);
+  background-size: cover;
+  background-position: center;
+}
+main #entrancesection .container {
+  width: 95%;
+}
+main #entrancesection .container .entrancediv {
+  text-align: center;
+}
+main #entrancesection .container .entrancediv h1 {
+  color: white;
+  font-family: cursive;
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+main #entrancesection .container .entrancediv button {
+  background-color: transparent;
+  padding: 20px;
+  border: 2px solid white;
+  color: white;
+}
+main #entrancesection .container .entrancediv button:hover {
+  background-color: white;
+  color: black;
+  transition: 0.3s;
+}
+main #about {
+  width: 100%;
+}
+main #about .container {
+  width: 95%;
+}
+main #about .container .row .aboutimg img {
+  width: 100%;
+}
+main #about .container .row .abouttext {
+  margin-top: 30px;
+  width: 80%;
+}
+main #about .container .row .abouttext h6 {
+  color: gray;
+}
+main #about .container .row .abouttext p {
+  color: gray;
+}
+main #apisection {
+  width: 100%;
+  margin-top: 30px;
+}
+main #apisection .container {
+  width: 95%;
+}
+main #apisection .container #apidiv {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  width: 100%;
+}
+main #apisection .container #apidiv .box .boxdiv {
+  text-align: center;
+  font-weight: bolder;
+  border: 2px solid black;
+  margin-bottom: 30px;
+}
+main #apisection .container #apidiv .box p {
+  margin-top: 10px;
+}
+main #apisection .container #apidiv .box img {
+  width: 100%;
+}
+main #apisection .container #apidiv .box button {
+  background-color: white;
+  font-weight: bolder;
+  border: 2px solid black;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+main #apisection .container #apidiv .box button:hover {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  transition: 0.3s;
+}
+main #guest {
+  margin-bottom: 30px;
+}
+main #guest .container .titlediv {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+main #guest .container .titlediv h6 {
+  color: gray;
+}
+main #guest .container .guestdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+main #guest .container .guestdiv img {
+  width: 25%;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+main #guest .container .guestdiv span {
+  color: #FFB400;
+  margin-bottom: 20px;
+}
+main #guest .container .guestdiv p {
+  color: gray;
+}
+main #guest .container .guestdiv h6 {
+  color: gray;
+}
+main #blog .container .titlediv {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+main #blog .container .titlediv h6 {
+  color: gray;
+}
+main #blog .container .blog {
+  margin-bottom: 30px;
+}
+main #blog .container .blog img {
+  width: 100%;
+  height: 50%;
+  margin-bottom: 20px;
+}
+main #blog .container .blog h6 {
+  color: gray;
+}
+main #blog .container .blog p {
+  font-weight: bolder;
+  font-size: 20px;
+}
+main #blog .container .blog button {
+  border: none;
+  color: gray;
+  background-color: transparent;
+}
+
+footer {
+  background-color: #27272B;
+  margin-top: 30px;
+}
+footer .container .row .tasty {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+footer .container .row .tasty h1 {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+footer .container .row .tasty p {
+  color: gray;
+}
+footer .container .row .tasty .btns button {
+  background-color: #5d5d63;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  padding: 10px;
+}
+footer .container .row .openhours {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+footer .container .row .openhours h1 {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+footer .container .row .openhours ul {
+  list-style: none;
+  color: #5d5d63;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+footer .container .row .openhours ul span {
+  color: white;
+}
+footer .container .row .contact {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+footer .container .row .contact h1 {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+footer .container .row .contact ul {
+  list-style: none;
+  color: #5d5d63;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+footer .container .row .news {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+footer .container .row .news h1 {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+footer .container .row .news p {
+  color: gray;
+}
+footer .container .row .news button {
+  background-color: transparent;
+  border: 1px solid gray;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #5d5d63;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+footer .container .row .news button i {
+  font-size: 30px;
+}
+footer .footertext {
+  text-align: center;
+}
+footer .footertext p {
+  color: #5d5d63;
+  margin-bottom: 0rem;
+}
